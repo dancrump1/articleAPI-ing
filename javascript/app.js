@@ -10,7 +10,7 @@ $.ajax({
 }).then(function (response) {
     var result = response.response.docs;
     $("#submit").click(function () {
-
+      var title = $("#exampleFormControlSelect1").attr("value");
 
         for (var i = 0; i < result.length; i++) {
             console.log(result[i])
