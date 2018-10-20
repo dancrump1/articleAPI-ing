@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="main.js"></script>
 </head>
@@ -19,24 +19,52 @@
             </div>
           </div>
 </div>
+
+<div>
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+        <div>
+
+                
+              
+                
+<div class="card">
+      <div class="card-header">
+        Search 
+      </div>
 <form>
         <div class="form-group">
           <label for="Title">Title</label>
           <input class="form-control" type="text" placeholder="Title">
         </div>
+              <div class="form-group">
+                    <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+            <div class="form-group">
+                  <label for="Title">Start Year</label>
+                  <input class="form-control" type="text" placeholder="YYYYMMDD">
+                </div>
         <div class="form-group">
-                <label for="exampleFormControlSelect1">Sort By Relevance</label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                  <option>newest</option>
-                  <option>oldest</option>
-                </select>
-              </div>
-        <div class="form-group">
-                <label for="exampleInputEmail1">Title</label>
-                <input class="form-control" type="text" placeholder="Default input">
+                <label for="exampleInputEmail1">End Year</label>
+                <input class="form-control" type="text" placeholder="YYYYMMDD">
         </div>
         <button type="submit" class="btn btn-primary">Search</button>
+        <button class="btn btn-danger" type="reset">Clear</button>
       </form>
-    
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+   
 </body>
 </html>
